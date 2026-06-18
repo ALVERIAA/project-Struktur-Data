@@ -44,7 +44,7 @@ with col_input:
                 sukses, pesan = parkir_engine.tambah_kendaraan(plat, jenis)
                 if sukses:
                     st.success(pesan)
-                    st.rerun()
+                    
                 else:
                     st.warning(pesan)
 
